@@ -29,10 +29,23 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
+      <div class="row col-12">
+      <form id="schedule">
+        <div class="timeblock"></div>
+        <label for="time" class="col-1 col-form-label">7AM</label>
+        <div class="col-8">
+          <input type="text" class="form-control" id="task"/>
+        </div>
+        <div class="col-1">
+        <button type="submit" class="fa-solid fa-floppy-disk"></button>
+        </div>
+      </form>
+      </div>
       <!-- Timeblocks go here -->
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets\script.js"></script>
   </body>
 </html>
